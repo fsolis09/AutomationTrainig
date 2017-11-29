@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="34" passed="34">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Training" duration-ms="187173" started-at="2017-10-05T21:21:10Z" finished-at="2017-10-05T21:24:17Z">
+    <groups>
+    </groups>
+    <test name="ChromeBrowseTest" duration-ms="93134" started-at="2017-10-05T21:21:10Z" finished-at="2017-10-05T21:22:43Z">
+      <class name="test.PostTest">
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.PostTest@357246de]" name="setUpDriver" is-config="true" duration-ms="2697" started-at="2017-10-05T15:22:22Z" finished-at="2017-10-05T15:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.PostTest@357246de]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-05T15:22:22Z" finished-at="2017-10-05T15:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initPostPage()[pri:0, instance:test.PostTest@357246de]" name="initPostPage" is-config="true" duration-ms="1344" started-at="2017-10-05T15:22:25Z" finished-at="2017-10-05T15:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPostPage -->
+        <test-method status="PASS" signature="verifyIfPostAndAdPageLoadedCorrectly()[pri:0, instance:test.PostTest@357246de]" name="verifyIfPostAndAdPageLoadedCorrectly" duration-ms="2508" started-at="2017-10-05T15:22:26Z" finished-at="2017-10-05T15:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfPostAndAdPageLoadedCorrectly -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.PostTest@357246de]" name="afterMethod" is-config="true" duration-ms="744" started-at="2017-10-05T15:22:28Z" finished-at="2017-10-05T15:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.PostTest@357246de]" name="setUpDriver" is-config="true" duration-ms="2306" started-at="2017-10-05T15:22:29Z" finished-at="2017-10-05T15:22:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initPostPage()[pri:0, instance:test.PostTest@357246de]" name="initPostPage" is-config="true" duration-ms="834" started-at="2017-10-05T15:22:31Z" finished-at="2017-10-05T15:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPostPage -->
+        <test-method status="PASS" signature="verifyThatLoginPageIsDisplayedWhenTheUserIsNotLoged()[pri:0, instance:test.PostTest@357246de]" name="verifyThatLoginPageIsDisplayedWhenTheUserIsNotLoged" duration-ms="9" started-at="2017-10-05T15:22:32Z" finished-at="2017-10-05T15:22:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatLoginPageIsDisplayedWhenTheUserIsNotLoged -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.PostTest@357246de]" name="afterMethod" is-config="true" duration-ms="742" started-at="2017-10-05T15:22:32Z" finished-at="2017-10-05T15:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.PostTest@357246de]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-05T15:22:33Z" finished-at="2017-10-05T15:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.PostTest -->
+      <class name="test.RegisterTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.RegisterTest@256216b3]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-05T15:21:34Z" finished-at="2017-10-05T15:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@256216b3]" name="setUpDriver" is-config="true" duration-ms="2647" started-at="2017-10-05T15:21:34Z" finished-at="2017-10-05T15:21:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initRegisterPage()[pri:0, instance:test.RegisterTest@256216b3]" name="initRegisterPage" is-config="true" duration-ms="510" started-at="2017-10-05T15:21:36Z" finished-at="2017-10-05T15:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initRegisterPage -->
+        <test-method status="PASS" signature="verifyThatAllTheMandatoryMessagesAreDisplayedWhenAllMandatoryFieldsAreEmptyAfterClickSubmitButton()[pri:0, instance:test.RegisterTest@256216b3]" name="verifyThatAllTheMandatoryMessagesAreDisplayedWhenAllMandatoryFieldsAreEmptyAfterClickSubmitButton" duration-ms="580" started-at="2017-10-05T15:21:37Z" finished-at="2017-10-05T15:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatAllTheMandatoryMessagesAreDisplayedWhenAllMandatoryFieldsAreEmptyAfterClickSubmitButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.RegisterTest@256216b3]" name="afterMethod" is-config="true" duration-ms="747" started-at="2017-10-05T15:21:37Z" finished-at="2017-10-05T15:21:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@256216b3]" name="setUpDriver" is-config="true" duration-ms="2702" started-at="2017-10-05T15:21:38Z" finished-at="2017-10-05T15:21:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initRegisterPage()[pri:0, instance:test.RegisterTest@256216b3]" name="initRegisterPage" is-config="true" duration-ms="552" started-at="2017-10-05T15:21:41Z" finished-at="2017-10-05T15:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initRegisterPage -->
+        <test-method status="PASS" signature="verifyThatErrorMessageIsDisplayedWhenCreatingUserWithUserNameThatIsAlreadyTaken()[pri:0, instance:test.RegisterTest@256216b3]" name="verifyThatErrorMessageIsDisplayedWhenCreatingUserWithUserNameThatIsAlreadyTaken" duration-ms="1218" started-at="2017-10-05T15:21:41Z" finished-at="2017-10-05T15:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatErrorMessageIsDisplayedWhenCreatingUserWithUserNameThatIsAlreadyTaken -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.RegisterTest@256216b3]" name="afterMethod" is-config="true" duration-ms="733" started-at="2017-10-05T15:21:42Z" finished-at="2017-10-05T15:21:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@256216b3]" name="setUpDriver" is-config="true" duration-ms="2535" started-at="2017-10-05T15:21:43Z" finished-at="2017-10-05T15:21:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initRegisterPage()[pri:0, instance:test.RegisterTest@256216b3]" name="initRegisterPage" is-config="true" duration-ms="425" started-at="2017-10-05T15:21:46Z" finished-at="2017-10-05T15:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initRegisterPage -->
+        <test-method status="PASS" signature="verifyThatErrorMessageIsDisplayedWhenSendingDifferentPasswordsOnPasswordAndConfirmPasswordFields()[pri:0, instance:test.RegisterTest@256216b3]" name="verifyThatErrorMessageIsDisplayedWhenSendingDifferentPasswordsOnPasswordAndConfirmPasswordFields" duration-ms="1046" started-at="2017-10-05T15:21:46Z" finished-at="2017-10-05T15:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatErrorMessageIsDisplayedWhenSendingDifferentPasswordsOnPasswordAndConfirmPasswordFields -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.RegisterTest@256216b3]" name="afterMethod" is-config="true" duration-ms="740" started-at="2017-10-05T15:21:47Z" finished-at="2017-10-05T15:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@256216b3]" name="setUpDriver" is-config="true" duration-ms="3120" started-at="2017-10-05T15:21:48Z" finished-at="2017-10-05T15:21:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initRegisterPage()[pri:0, instance:test.RegisterTest@256216b3]" name="initRegisterPage" is-config="true" duration-ms="1380" started-at="2017-10-05T15:21:51Z" finished-at="2017-10-05T15:21:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initRegisterPage -->
+        <test-method status="PASS" signature="verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField()[pri:0, instance:test.RegisterTest@256216b3]" name="verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField" duration-ms="1635" started-at="2017-10-05T15:21:52Z" finished-at="2017-10-05T15:21:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.RegisterTest@256216b3]" name="afterMethod" is-config="true" duration-ms="739" started-at="2017-10-05T15:21:54Z" finished-at="2017-10-05T15:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@256216b3]" name="setUpDriver" is-config="true" duration-ms="2883" started-at="2017-10-05T15:21:55Z" finished-at="2017-10-05T15:21:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initRegisterPage()[pri:0, instance:test.RegisterTest@256216b3]" name="initRegisterPage" is-config="true" duration-ms="1423" started-at="2017-10-05T15:21:58Z" finished-at="2017-10-05T15:21:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initRegisterPage -->
+        <test-method status="PASS" signature="verifyThatRegisterPageIsDisplayedWhenClickingOnRegisterLink()[pri:0, instance:test.RegisterTest@256216b3]" name="verifyThatRegisterPageIsDisplayedWhenClickingOnRegisterLink" duration-ms="986" started-at="2017-10-05T15:21:59Z" finished-at="2017-10-05T15:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatRegisterPageIsDisplayedWhenClickingOnRegisterLink -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.RegisterTest@256216b3]" name="afterMethod" is-config="true" duration-ms="739" started-at="2017-10-05T15:22:00Z" finished-at="2017-10-05T15:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@256216b3]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-05T15:22:01Z" finished-at="2017-10-05T15:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.RegisterTest -->
+      <class name="test.BrowseCategoriesTest">
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.BrowseCategoriesTest@28f67ac7]" name="setUpDriver" is-config="true" duration-ms="2779" started-at="2017-10-05T15:22:08Z" finished-at="2017-10-05T15:22:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.BrowseCategoriesTest@28f67ac7]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-05T15:22:08Z" finished-at="2017-10-05T15:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyThatSearchFieldIsDisplayedWhenClickedOnAntiquesCollect()[pri:0, instance:test.BrowseCategoriesTest@28f67ac7]" name="verifyThatSearchFieldIsDisplayedWhenClickedOnAntiquesCollect" duration-ms="1252" started-at="2017-10-05T15:22:11Z" finished-at="2017-10-05T15:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatSearchFieldIsDisplayedWhenClickedOnAntiquesCollect -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.BrowseCategoriesTest@28f67ac7]" name="afterMethod" is-config="true" duration-ms="748" started-at="2017-10-05T15:22:12Z" finished-at="2017-10-05T15:22:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.BrowseCategoriesTest@28f67ac7]" name="setUpDriver" is-config="true" duration-ms="2641" started-at="2017-10-05T15:22:13Z" finished-at="2017-10-05T15:22:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="verifyThatSearchFieldIsDisplayedWhenClickedOnArtCraftCategory()[pri:0, instance:test.BrowseCategoriesTest@28f67ac7]" name="verifyThatSearchFieldIsDisplayedWhenClickedOnArtCraftCategory" duration-ms="1398" started-at="2017-10-05T15:22:15Z" finished-at="2017-10-05T15:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatSearchFieldIsDisplayedWhenClickedOnArtCraftCategory -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.BrowseCategoriesTest@28f67ac7]" name="afterMethod" is-config="true" duration-ms="751" started-at="2017-10-05T15:22:17Z" finished-at="2017-10-05T15:22:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.BrowseCategoriesTest@28f67ac7]" name="setUpDriver" is-config="true" duration-ms="2476" started-at="2017-10-05T15:22:18Z" finished-at="2017-10-05T15:22:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="verifyThatSearchFieldIsDisplayedWhenClickedOnAutoCategory()[pri:0, instance:test.BrowseCategoriesTest@28f67ac7]" name="verifyThatSearchFieldIsDisplayedWhenClickedOnAutoCategory" duration-ms="1045" started-at="2017-10-05T15:22:20Z" finished-at="2017-10-05T15:22:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatSearchFieldIsDisplayedWhenClickedOnAutoCategory -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.BrowseCategoriesTest@28f67ac7]" name="afterMethod" is-config="true" duration-ms="742" started-at="2017-10-05T15:22:21Z" finished-at="2017-10-05T15:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.BrowseCategoriesTest@28f67ac7]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-05T15:22:22Z" finished-at="2017-10-05T15:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.BrowseCategoriesTest -->
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.LoginTest@6adca536]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-05T15:21:10Z" finished-at="2017-10-05T15:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@6adca536]" name="setUpDriver" is-config="true" duration-ms="3556" started-at="2017-10-05T15:21:10Z" finished-at="2017-10-05T15:21:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyThatLoginPageIsDisplayedWhenUserClickLoginLink()[pri:0, instance:test.LoginTest@6adca536]" name="testVerifyThatLoginPageIsDisplayedWhenUserClickLoginLink" duration-ms="640" started-at="2017-10-05T15:21:13Z" finished-at="2017-10-05T15:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyThatLoginPageIsDisplayedWhenUserClickLoginLink -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.LoginTest@6adca536]" name="afterMethod" is-config="true" duration-ms="803" started-at="2017-10-05T15:21:14Z" finished-at="2017-10-05T15:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@6adca536]" name="setUpDriver" is-config="true" duration-ms="3664" started-at="2017-10-05T15:21:15Z" finished-at="2017-10-05T15:21:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyThatUserIsAbleToLoginWithValidCredentials()[pri:0, instance:test.LoginTest@6adca536]" name="testVerifyThatUserIsAbleToLoginWithValidCredentials" duration-ms="4237" started-at="2017-10-05T15:21:18Z" finished-at="2017-10-05T15:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyThatUserIsAbleToLoginWithValidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.LoginTest@6adca536]" name="afterMethod" is-config="true" duration-ms="739" started-at="2017-10-05T15:21:22Z" finished-at="2017-10-05T15:21:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@6adca536]" name="setUpDriver" is-config="true" duration-ms="5541" started-at="2017-10-05T15:21:23Z" finished-at="2017-10-05T15:21:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials()[pri:0, instance:test.LoginTest@6adca536]" name="testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials" duration-ms="4034" started-at="2017-10-05T15:21:29Z" finished-at="2017-10-05T15:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.LoginTest@6adca536]" name="afterMethod" is-config="true" duration-ms="740" started-at="2017-10-05T15:21:33Z" finished-at="2017-10-05T15:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@6adca536]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-05T15:21:34Z" finished-at="2017-10-05T15:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.ProfileTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.ProfileTest@2a18f23c]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-05T15:22:33Z" finished-at="2017-10-05T15:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.ProfileTest@2a18f23c]" name="setUpDriver" is-config="true" duration-ms="2231" started-at="2017-10-05T15:22:33Z" finished-at="2017-10-05T15:22:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initProfilePage()[pri:0, instance:test.ProfileTest@2a18f23c]" name="initProfilePage" is-config="true" duration-ms="570" started-at="2017-10-05T15:22:35Z" finished-at="2017-10-05T15:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProfilePage -->
+        <test-method status="PASS" signature="verifyIfProfilePageLoadedCorrectly()[pri:0, instance:test.ProfileTest@2a18f23c]" name="verifyIfProfilePageLoadedCorrectly" duration-ms="1053" started-at="2017-10-05T15:22:36Z" finished-at="2017-10-05T15:22:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfProfilePageLoadedCorrectly -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.ProfileTest@2a18f23c]" name="afterMethod" is-config="true" duration-ms="744" started-at="2017-10-05T15:22:37Z" finished-at="2017-10-05T15:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.ProfileTest@2a18f23c]" name="setUpDriver" is-config="true" duration-ms="3291" started-at="2017-10-05T15:22:38Z" finished-at="2017-10-05T15:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initProfilePage()[pri:0, instance:test.ProfileTest@2a18f23c]" name="initProfilePage" is-config="true" duration-ms="1026" started-at="2017-10-05T15:22:41Z" finished-at="2017-10-05T15:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProfilePage -->
+        <test-method status="PASS" signature="verifyThatProfilePageIsDisplayedWhenTheUserIsNotLoged()[pri:0, instance:test.ProfileTest@2a18f23c]" name="verifyThatProfilePageIsDisplayedWhenTheUserIsNotLoged" duration-ms="11" started-at="2017-10-05T15:22:42Z" finished-at="2017-10-05T15:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatProfilePageIsDisplayedWhenTheUserIsNotLoged -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.ProfileTest@2a18f23c]" name="afterMethod" is-config="true" duration-ms="742" started-at="2017-10-05T15:22:42Z" finished-at="2017-10-05T15:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.ProfileTest@2a18f23c]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-05T15:22:43Z" finished-at="2017-10-05T15:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ProfileTest -->
+      <class name="test.HomeTest">
+        <test-method status="PASS" signature="printStartingExecution(java.lang.String)[pri:0, instance:test.HomeTest@3ab39c39]" name="printStartingExecution" is-config="true" duration-ms="10" started-at="2017-10-05T15:21:10Z" finished-at="2017-10-05T15:21:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printStartingExecution -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.HomeTest@3ab39c39]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-05T15:22:01Z" finished-at="2017-10-05T15:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.HomeTest@3ab39c39]" name="setUpDriver" is-config="true" duration-ms="2945" started-at="2017-10-05T15:22:01Z" finished-at="2017-10-05T15:22:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="VerifyHomePageLoadedFromHomeTabClick()[pri:0, instance:test.HomeTest@3ab39c39]" name="VerifyHomePageLoadedFromHomeTabClick" duration-ms="10" started-at="2017-10-05T15:22:04Z" finished-at="2017-10-05T15:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageLoadedFromHomeTabClick -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.HomeTest@3ab39c39]" name="afterMethod" is-config="true" duration-ms="740" started-at="2017-10-05T15:22:04Z" finished-at="2017-10-05T15:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.HomeTest@3ab39c39]" name="setUpDriver" is-config="true" duration-ms="2530" started-at="2017-10-05T15:22:05Z" finished-at="2017-10-05T15:22:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="VerifyIfHomeIsDisplayedCorrectly()[pri:0, instance:test.HomeTest@3ab39c39]" name="VerifyIfHomeIsDisplayedCorrectly" duration-ms="150" started-at="2017-10-05T15:22:07Z" finished-at="2017-10-05T15:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfHomeIsDisplayedCorrectly -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.HomeTest@3ab39c39]" name="afterMethod" is-config="true" duration-ms="753" started-at="2017-10-05T15:22:07Z" finished-at="2017-10-05T15:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.HomeTest@3ab39c39]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-05T15:22:08Z" finished-at="2017-10-05T15:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.HomeTest@3ab39c39]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-10-05T15:22:43Z" finished-at="2017-10-05T15:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.HomeTest -->
+    </test> <!-- ChromeBrowseTest -->
+    <test name="FirefoxBrowseTest" duration-ms="94028" started-at="2017-10-05T21:22:43Z" finished-at="2017-10-05T21:24:17Z">
+      <class name="test.RegisterTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-05T15:22:59Z" finished-at="2017-10-05T15:22:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@35bbe5e8]" name="setUpDriver" is-config="true" duration-ms="3760" started-at="2017-10-05T15:22:59Z" finished-at="2017-10-05T15:23:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initRegisterPage()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="initRegisterPage" is-config="true" duration-ms="268" started-at="2017-10-05T15:23:03Z" finished-at="2017-10-05T15:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initRegisterPage -->
+        <test-method status="PASS" signature="verifyThatAllTheMandatoryMessagesAreDisplayedWhenAllMandatoryFieldsAreEmptyAfterClickSubmitButton()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="verifyThatAllTheMandatoryMessagesAreDisplayedWhenAllMandatoryFieldsAreEmptyAfterClickSubmitButton" duration-ms="837" started-at="2017-10-05T15:23:03Z" finished-at="2017-10-05T15:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatAllTheMandatoryMessagesAreDisplayedWhenAllMandatoryFieldsAreEmptyAfterClickSubmitButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="afterMethod" is-config="true" duration-ms="333" started-at="2017-10-05T15:23:04Z" finished-at="2017-10-05T15:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@35bbe5e8]" name="setUpDriver" is-config="true" duration-ms="3128" started-at="2017-10-05T15:23:04Z" finished-at="2017-10-05T15:23:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initRegisterPage()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="initRegisterPage" is-config="true" duration-ms="148" started-at="2017-10-05T15:23:08Z" finished-at="2017-10-05T15:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initRegisterPage -->
+        <test-method status="PASS" signature="verifyThatErrorMessageIsDisplayedWhenCreatingUserWithUserNameThatIsAlreadyTaken()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="verifyThatErrorMessageIsDisplayedWhenCreatingUserWithUserNameThatIsAlreadyTaken" duration-ms="1410" started-at="2017-10-05T15:23:08Z" finished-at="2017-10-05T15:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatErrorMessageIsDisplayedWhenCreatingUserWithUserNameThatIsAlreadyTaken -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="afterMethod" is-config="true" duration-ms="325" started-at="2017-10-05T15:23:09Z" finished-at="2017-10-05T15:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@35bbe5e8]" name="setUpDriver" is-config="true" duration-ms="3121" started-at="2017-10-05T15:23:09Z" finished-at="2017-10-05T15:23:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initRegisterPage()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="initRegisterPage" is-config="true" duration-ms="150" started-at="2017-10-05T15:23:13Z" finished-at="2017-10-05T15:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initRegisterPage -->
+        <test-method status="PASS" signature="verifyThatErrorMessageIsDisplayedWhenSendingDifferentPasswordsOnPasswordAndConfirmPasswordFields()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="verifyThatErrorMessageIsDisplayedWhenSendingDifferentPasswordsOnPasswordAndConfirmPasswordFields" duration-ms="1713" started-at="2017-10-05T15:23:13Z" finished-at="2017-10-05T15:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatErrorMessageIsDisplayedWhenSendingDifferentPasswordsOnPasswordAndConfirmPasswordFields -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="afterMethod" is-config="true" duration-ms="393" started-at="2017-10-05T15:23:14Z" finished-at="2017-10-05T15:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@35bbe5e8]" name="setUpDriver" is-config="true" duration-ms="3547" started-at="2017-10-05T15:23:15Z" finished-at="2017-10-05T15:23:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initRegisterPage()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="initRegisterPage" is-config="true" duration-ms="565" started-at="2017-10-05T15:23:18Z" finished-at="2017-10-05T15:23:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initRegisterPage -->
+        <test-method status="PASS" signature="verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField" duration-ms="1040" started-at="2017-10-05T15:23:19Z" finished-at="2017-10-05T15:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatErrorMessageIsDisplayedWhenSendingInvalidEmailOnEmailField -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="afterMethod" is-config="true" duration-ms="343" started-at="2017-10-05T15:23:20Z" finished-at="2017-10-05T15:23:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@35bbe5e8]" name="setUpDriver" is-config="true" duration-ms="4684" started-at="2017-10-05T15:23:20Z" finished-at="2017-10-05T15:23:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initRegisterPage()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="initRegisterPage" is-config="true" duration-ms="143" started-at="2017-10-05T15:23:25Z" finished-at="2017-10-05T15:23:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initRegisterPage -->
+        <test-method status="PASS" signature="verifyThatRegisterPageIsDisplayedWhenClickingOnRegisterLink()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="verifyThatRegisterPageIsDisplayedWhenClickingOnRegisterLink" duration-ms="426" started-at="2017-10-05T15:23:25Z" finished-at="2017-10-05T15:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatRegisterPageIsDisplayedWhenClickingOnRegisterLink -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="afterMethod" is-config="true" duration-ms="328" started-at="2017-10-05T15:23:26Z" finished-at="2017-10-05T15:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.RegisterTest@35bbe5e8]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-05T15:23:26Z" finished-at="2017-10-05T15:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.RegisterTest -->
+      <class name="test.PostTest">
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.PostTest@7d417077]" name="setUpDriver" is-config="true" duration-ms="4601" started-at="2017-10-05T15:23:48Z" finished-at="2017-10-05T15:23:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.PostTest@7d417077]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-05T15:23:48Z" finished-at="2017-10-05T15:23:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initPostPage()[pri:0, instance:test.PostTest@7d417077]" name="initPostPage" is-config="true" duration-ms="838" started-at="2017-10-05T15:23:52Z" finished-at="2017-10-05T15:23:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPostPage -->
+        <test-method status="PASS" signature="verifyIfPostAndAdPageLoadedCorrectly()[pri:0, instance:test.PostTest@7d417077]" name="verifyIfPostAndAdPageLoadedCorrectly" duration-ms="1426" started-at="2017-10-05T15:23:53Z" finished-at="2017-10-05T15:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfPostAndAdPageLoadedCorrectly -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.PostTest@7d417077]" name="afterMethod" is-config="true" duration-ms="330" started-at="2017-10-05T15:23:55Z" finished-at="2017-10-05T15:23:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.PostTest@7d417077]" name="setUpDriver" is-config="true" duration-ms="4183" started-at="2017-10-05T15:23:55Z" finished-at="2017-10-05T15:23:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initPostPage()[pri:0, instance:test.PostTest@7d417077]" name="initPostPage" is-config="true" duration-ms="825" started-at="2017-10-05T15:23:59Z" finished-at="2017-10-05T15:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPostPage -->
+        <test-method status="PASS" signature="verifyThatLoginPageIsDisplayedWhenTheUserIsNotLoged()[pri:0, instance:test.PostTest@7d417077]" name="verifyThatLoginPageIsDisplayedWhenTheUserIsNotLoged" duration-ms="9" started-at="2017-10-05T15:24:00Z" finished-at="2017-10-05T15:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatLoginPageIsDisplayedWhenTheUserIsNotLoged -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.PostTest@7d417077]" name="afterMethod" is-config="true" duration-ms="348" started-at="2017-10-05T15:24:00Z" finished-at="2017-10-05T15:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.PostTest@7d417077]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-10-05T15:24:00Z" finished-at="2017-10-05T15:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.PostTest -->
+      <class name="test.BrowseCategoriesTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.BrowseCategoriesTest@7dc36524]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-05T15:23:34Z" finished-at="2017-10-05T15:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.BrowseCategoriesTest@7dc36524]" name="setUpDriver" is-config="true" duration-ms="3016" started-at="2017-10-05T15:23:34Z" finished-at="2017-10-05T15:23:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="verifyThatSearchFieldIsDisplayedWhenClickedOnAntiquesCollect()[pri:0, instance:test.BrowseCategoriesTest@7dc36524]" name="verifyThatSearchFieldIsDisplayedWhenClickedOnAntiquesCollect" duration-ms="265" started-at="2017-10-05T15:23:37Z" finished-at="2017-10-05T15:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatSearchFieldIsDisplayedWhenClickedOnAntiquesCollect -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.BrowseCategoriesTest@7dc36524]" name="afterMethod" is-config="true" duration-ms="339" started-at="2017-10-05T15:23:38Z" finished-at="2017-10-05T15:23:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.BrowseCategoriesTest@7dc36524]" name="setUpDriver" is-config="true" duration-ms="4073" started-at="2017-10-05T15:23:38Z" finished-at="2017-10-05T15:23:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="verifyThatSearchFieldIsDisplayedWhenClickedOnArtCraftCategory()[pri:0, instance:test.BrowseCategoriesTest@7dc36524]" name="verifyThatSearchFieldIsDisplayedWhenClickedOnArtCraftCategory" duration-ms="494" started-at="2017-10-05T15:23:42Z" finished-at="2017-10-05T15:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatSearchFieldIsDisplayedWhenClickedOnArtCraftCategory -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.BrowseCategoriesTest@7dc36524]" name="afterMethod" is-config="true" duration-ms="342" started-at="2017-10-05T15:23:43Z" finished-at="2017-10-05T15:23:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.BrowseCategoriesTest@7dc36524]" name="setUpDriver" is-config="true" duration-ms="3939" started-at="2017-10-05T15:23:43Z" finished-at="2017-10-05T15:23:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="verifyThatSearchFieldIsDisplayedWhenClickedOnAutoCategory()[pri:0, instance:test.BrowseCategoriesTest@7dc36524]" name="verifyThatSearchFieldIsDisplayedWhenClickedOnAutoCategory" duration-ms="529" started-at="2017-10-05T15:23:47Z" finished-at="2017-10-05T15:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatSearchFieldIsDisplayedWhenClickedOnAutoCategory -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.BrowseCategoriesTest@7dc36524]" name="afterMethod" is-config="true" duration-ms="334" started-at="2017-10-05T15:23:47Z" finished-at="2017-10-05T15:23:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.BrowseCategoriesTest@7dc36524]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-05T15:23:48Z" finished-at="2017-10-05T15:23:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.BrowseCategoriesTest -->
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@75bd9247]" name="setUpDriver" is-config="true" duration-ms="4428" started-at="2017-10-05T15:22:43Z" finished-at="2017-10-05T15:22:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.LoginTest@75bd9247]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-05T15:22:43Z" finished-at="2017-10-05T15:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testVerifyThatLoginPageIsDisplayedWhenUserClickLoginLink()[pri:0, instance:test.LoginTest@75bd9247]" name="testVerifyThatLoginPageIsDisplayedWhenUserClickLoginLink" duration-ms="165" started-at="2017-10-05T15:22:47Z" finished-at="2017-10-05T15:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyThatLoginPageIsDisplayedWhenUserClickLoginLink -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.LoginTest@75bd9247]" name="afterMethod" is-config="true" duration-ms="341" started-at="2017-10-05T15:22:47Z" finished-at="2017-10-05T15:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@75bd9247]" name="setUpDriver" is-config="true" duration-ms="4439" started-at="2017-10-05T15:22:48Z" finished-at="2017-10-05T15:22:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyThatUserIsAbleToLoginWithValidCredentials()[pri:0, instance:test.LoginTest@75bd9247]" name="testVerifyThatUserIsAbleToLoginWithValidCredentials" duration-ms="1385" started-at="2017-10-05T15:22:52Z" finished-at="2017-10-05T15:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyThatUserIsAbleToLoginWithValidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.LoginTest@75bd9247]" name="afterMethod" is-config="true" duration-ms="308" started-at="2017-10-05T15:22:53Z" finished-at="2017-10-05T15:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@75bd9247]" name="setUpDriver" is-config="true" duration-ms="4017" started-at="2017-10-05T15:22:54Z" finished-at="2017-10-05T15:22:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials()[pri:0, instance:test.LoginTest@75bd9247]" name="testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials" duration-ms="1079" started-at="2017-10-05T15:22:58Z" finished-at="2017-10-05T15:22:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyThatUserIsNotAbleToLoginWithInvalidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.LoginTest@75bd9247]" name="afterMethod" is-config="true" duration-ms="353" started-at="2017-10-05T15:22:59Z" finished-at="2017-10-05T15:22:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@75bd9247]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-05T15:22:59Z" finished-at="2017-10-05T15:22:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.HomeTest">
+        <test-method status="PASS" signature="printStartingExecution(java.lang.String)[pri:0, instance:test.HomeTest@3f0ee7cb]" name="printStartingExecution" is-config="true" duration-ms="0" started-at="2017-10-05T15:22:43Z" finished-at="2017-10-05T15:22:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.0.103:86/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printStartingExecution -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.HomeTest@3f0ee7cb]" name="setUp" is-config="true" duration-ms="1" started-at="2017-10-05T15:23:26Z" finished-at="2017-10-05T15:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.HomeTest@3f0ee7cb]" name="setUpDriver" is-config="true" duration-ms="4559" started-at="2017-10-05T15:23:26Z" finished-at="2017-10-05T15:23:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="VerifyHomePageLoadedFromHomeTabClick()[pri:0, instance:test.HomeTest@3f0ee7cb]" name="VerifyHomePageLoadedFromHomeTabClick" duration-ms="16" started-at="2017-10-05T15:23:30Z" finished-at="2017-10-05T15:23:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageLoadedFromHomeTabClick -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.HomeTest@3f0ee7cb]" name="afterMethod" is-config="true" duration-ms="331" started-at="2017-10-05T15:23:30Z" finished-at="2017-10-05T15:23:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.HomeTest@3f0ee7cb]" name="setUpDriver" is-config="true" duration-ms="3082" started-at="2017-10-05T15:23:31Z" finished-at="2017-10-05T15:23:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="VerifyIfHomeIsDisplayedCorrectly()[pri:0, instance:test.HomeTest@3f0ee7cb]" name="VerifyIfHomeIsDisplayedCorrectly" duration-ms="144" started-at="2017-10-05T15:23:34Z" finished-at="2017-10-05T15:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfHomeIsDisplayedCorrectly -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.HomeTest@3f0ee7cb]" name="afterMethod" is-config="true" duration-ms="341" started-at="2017-10-05T15:23:34Z" finished-at="2017-10-05T15:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.HomeTest@3f0ee7cb]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-05T15:23:34Z" finished-at="2017-10-05T15:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.HomeTest@3f0ee7cb]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-10-05T15:24:17Z" finished-at="2017-10-05T15:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.HomeTest -->
+      <class name="test.ProfileTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.ProfileTest@2c8d66b2]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-05T15:24:00Z" finished-at="2017-10-05T15:24:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.ProfileTest@2c8d66b2]" name="setUpDriver" is-config="true" duration-ms="5588" started-at="2017-10-05T15:24:00Z" finished-at="2017-10-05T15:24:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initProfilePage()[pri:0, instance:test.ProfileTest@2c8d66b2]" name="initProfilePage" is-config="true" duration-ms="3588" started-at="2017-10-05T15:24:06Z" finished-at="2017-10-05T15:24:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProfilePage -->
+        <test-method status="PASS" signature="verifyIfProfilePageLoadedCorrectly()[pri:0, instance:test.ProfileTest@2c8d66b2]" name="verifyIfProfilePageLoadedCorrectly" duration-ms="1095" started-at="2017-10-05T15:24:09Z" finished-at="2017-10-05T15:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfProfilePageLoadedCorrectly -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.ProfileTest@2c8d66b2]" name="afterMethod" is-config="true" duration-ms="365" started-at="2017-10-05T15:24:11Z" finished-at="2017-10-05T15:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUpDriver(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.ProfileTest@2c8d66b2]" name="setUpDriver" is-config="true" duration-ms="4848" started-at="2017-10-05T15:24:11Z" finished-at="2017-10-05T15:24:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="initProfilePage()[pri:0, instance:test.ProfileTest@2c8d66b2]" name="initProfilePage" is-config="true" duration-ms="680" started-at="2017-10-05T15:24:16Z" finished-at="2017-10-05T15:24:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProfilePage -->
+        <test-method status="PASS" signature="verifyThatProfilePageIsDisplayedWhenTheUserIsNotLoged()[pri:0, instance:test.ProfileTest@2c8d66b2]" name="verifyThatProfilePageIsDisplayedWhenTheUserIsNotLoged" duration-ms="11" started-at="2017-10-05T15:24:16Z" finished-at="2017-10-05T15:24:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatProfilePageIsDisplayedWhenTheUserIsNotLoged -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.ProfileTest@2c8d66b2]" name="afterMethod" is-config="true" duration-ms="304" started-at="2017-10-05T15:24:16Z" finished-at="2017-10-05T15:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.ProfileTest@2c8d66b2]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-05T15:24:17Z" finished-at="2017-10-05T15:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.ProfileTest -->
+    </test> <!-- FirefoxBrowseTest -->
+  </suite> <!-- Automation Training -->
+</testng-results>

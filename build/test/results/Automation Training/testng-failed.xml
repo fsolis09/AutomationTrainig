@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Training]">
+  <parameter name="mode" value="Local"/>
+  <parameter name="baseUrl" value="http://192.168.0.103:86/"/>
+  <parameter name="browser" value="firefox"/>
+  <parameter name="user" value="fsolisch09"/>
+  <parameter name="platform" value="WINDOWS"/>
+  <test name="ChromeBrowseTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="user" value="fsolisch09"/>
+    <parameter name="platform" value="WINDOWS"/>
+    <classes>
+      <class name="test.HomeTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="printStartingExecution"/>
+          <include name="printStartingExecution"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- test.HomeTest -->
+      <class name="test.LoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+      <class name="test.PostTest">
+        <methods>
+          <include name="verifyIfPostAndAdPageLoadedCorrectly"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- test.PostTest -->
+      <class name="test.CategoriesTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- test.CategoriesTest -->
+      <class name="test.RegisterTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- test.RegisterTest -->
+      <class name="test.ProfileTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="verifyIfProfilePageLoadedCorrectly"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- test.ProfileTest -->
+    </classes>
+  </test> <!-- ChromeBrowseTest(failed) -->
+  <test name="FirefoxBrowseTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="user" value="fsolisch09"/>
+    <parameter name="platform" value="WINDOWS"/>
+    <classes>
+      <class name="test.HomeTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="printStartingExecution"/>
+          <include name="printStartingExecution"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- test.HomeTest -->
+      <class name="test.LoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- test.LoginTest -->
+      <class name="test.PostTest">
+        <methods>
+          <include name="verifyIfPostAndAdPageLoadedCorrectly"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- test.PostTest -->
+      <class name="test.CategoriesTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- test.CategoriesTest -->
+      <class name="test.RegisterTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- test.RegisterTest -->
+      <class name="test.ProfileTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="verifyIfProfilePageLoadedCorrectly"/>
+          <include name="setUpDriver"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- test.ProfileTest -->
+    </classes>
+  </test> <!-- FirefoxBrowseTest(failed) -->
+</suite> <!-- Failed suite [Automation Training] -->

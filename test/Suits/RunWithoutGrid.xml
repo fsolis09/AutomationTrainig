@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Training">
+<parameter name="mode" value="Local"/>
+        <parameter name="baseUrl" value="http://192.168.0.103:86/"/>
+    <test name="ChromeBrowseTest">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="platform" value="WINDOWS"/>
+        <parameter name="user" value="fsolisch09"/>
+        <classes>
+            <class name="test.LoginTest"/>
+            <class name="test.RegisterTest"/>
+            <class name="test.HomeTest"/>
+            <class name="test.BrowseCategoriesTest"/>
+            <class name="test.PostTest"/>
+            <class name="test.ProfileTest"/>
+        </classes>
+    </test> <!-- Chrome Functional Testing -->
+   <test name="FirefoxBrowseTest">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="platform" value="WINDOWS"/>
+        <parameter name="user" value="fsolisch09"/>
+        <classes>
+            <class name="test.LoginTest"/>
+            <class name="test.RegisterTest"/>
+            <class name="test.HomeTest"/>
+            <class name="test.BrowseCategoriesTest"/>
+            <class name="test.PostTest"/>
+            <class name="test.ProfileTest"/>
+        </classes>
+    </test> <!-- Firefox Functional Testing -->
+</suite>
+

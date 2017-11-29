@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite thread-count="5" name="Automation Training Grid" parallel="tests">
+<parameter name="mode" value="Remote"/>
+        <parameter name="baseUrl" value="http://192.168.0.103:86/"/>
+    <test name="ChromeBrowseTest">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="platform" value="WINDOWS"/>
+        <classes>
+            <class name="test.LoginTest"/>
+            <class name="test.RegisterTest"/>
+        </classes>
+    </test> <!-- Chrome Functional Testing -->
+    <test name="FirefoxBrowseTest">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="platform" value="WINDOWS"/>
+        <classes>
+            <class name="test.LoginTest"/>
+            <class name="test.RegisterTest"/>
+        </classes>
+    </test> <!-- Firefox Functional Testing -->
+</suite>
+
